@@ -10,13 +10,59 @@ body {
     background: #FFFFFF;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
-}
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header {
+        padding-top: 24px ;
+    padding-bottom: 24px;}
+
+    .header-container {
+        display:flex;
+        align-items: center;
+    }
+
+    .header-nav {
+        display:flex;
+        align-items: center;
+        flex-grow: 1;
+        }
+
+    .header-menu {
+        display: flex;
+        gap: 40px;
+        margin-left: 76px;
+    }
+
+    .contacts-list {
+        display: flex;
+        gap: 40px;
+    }
 
 .header-logo {
     font-family: 'Raleway', ;
