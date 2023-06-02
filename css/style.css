@@ -115,13 +115,27 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;}
+color: #FFFFFF;
+max-width: 496px;
+}
 
 .hero {
     background-color: #2E2F42;
+    }
+
+.container-hero {
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    gap: 48px;
+    flex-direction: column;
+    align-items: center;
+    padding: 188px 316px;
 }
 
 .hero-btn {
+    min-width: 169px;
+    height: 56px;
     font-family: inherit;
         font-style: normal;
         font-weight: 500;
@@ -130,6 +144,7 @@ color: #FFFFFF;}
         letter-spacing: 0.04em;
         background: #4D5AE5;
         color: #FFFFFF;
+        border-radius: 4px;
         cursor: pointer;
 }
 
