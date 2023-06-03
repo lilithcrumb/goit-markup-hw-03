@@ -19,6 +19,7 @@ ul {
     margin-top: 0;
         margin-bottom: 0;
         margin-left: 0;
+        padding-left: 0;
 }
 
 .link {
@@ -121,7 +122,7 @@ max-width: 496px;
 
 .hero {
     background-color: #2E2F42;
-    }
+        }
 
 .container-hero {
     display: flex;
@@ -150,6 +151,23 @@ max-width: 496px;
 
 .hero-btn:hover, .hero-btn:focus {
     background: #404BBF;
+}
+
+.values {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.values-list {
+    display:flex;
+    gap: 24px;
+    
+}
+
+.values-item {
+    display: flex;
+    width: calc((100%-72) / 4);
+    flex-direction: column;
 }
 
 .prtfl-btn {
@@ -209,6 +227,7 @@ max-width: 496px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
+        margin-bottom: 8px;
 }
 
 .pf-ttl {
