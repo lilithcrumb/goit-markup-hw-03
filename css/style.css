@@ -201,8 +201,22 @@ max-width: 496px;
     width: calc((100%-48) / 3);
 }
 
-.section {
+.section-team {
     background: #F4F4FD;
+}
+
+.container-team {
+    flex-direction: column;
+}
+
+.team-list-ttl {
+    padding-top: 120px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
 }
 
 .item-text {
@@ -212,14 +226,17 @@ max-width: 496px;
     color: var(--contacts-link-color);
 }
 
-.team-list {
-    display: flex;
-    gap:24px;
-}
-
 .team-list-item {
     background-color: #FFFFFF;
-}
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 72px) / 4);
+    text-align: center;
+    }
+
+    .card-text {
+    padding: 32px 16px;
+    }
 
 .pf-list-text {
     font-size: 16px;
@@ -247,7 +264,6 @@ max-width: 496px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
-        margin-bottom: 8px;
 }
 
 .pf-ttl {
