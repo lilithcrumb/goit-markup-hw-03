@@ -39,6 +39,8 @@ ul {
         margin-right: auto;
     }
 
+/*!------HEADER-------*/
+
     .header {
         padding-top: 24px ;
     padding-bottom: 24px;}
@@ -120,6 +122,8 @@ color: #FFFFFF;
 max-width: 496px;
 }
 
+/*!------HERO-------*/
+
 .hero {
     background-color: #2E2F42;
         }
@@ -153,6 +157,8 @@ max-width: 496px;
     background: #404BBF;
 }
 
+/*!------OUR VALUES-------*/
+
 .values {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -161,7 +167,6 @@ max-width: 496px;
 .values-list {
     display:flex;
     gap: 24px;
-    
 }
 
 .values-item {
@@ -169,6 +174,8 @@ max-width: 496px;
     width: calc((100%-72) / 4);
     flex-direction: column;
 }
+
+/*!------PORTFOLIO BTNS-------*/
 
 .prtfl-btn {
     font-family: inherit;
@@ -187,6 +194,8 @@ max-width: 496px;
     color: #FFFFFF;
 }
 
+/*!------ABOUT US-------*/
+
 .about-us {
     margin-bottom: 120px;
 }
@@ -200,6 +209,8 @@ max-width: 496px;
     display: flex;
     width: calc((100%-48) / 3);
 }
+
+/*!------OUR TEAM-------*/
 
 .section-team {
     background: #F4F4FD;
@@ -238,6 +249,9 @@ max-width: 496px;
     padding: 32px 16px;
     }
 
+
+/*!-------------------------*/
+
 .pf-list-text {
     font-size: 16px;
         line-height: 1.5;
@@ -264,6 +278,7 @@ max-width: 496px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
+        margin-bottom: 8px;
 }
 
 .pf-ttl {
@@ -275,8 +290,11 @@ max-width: 496px;
         color: var(--main-text-color);
 }
 
+/*!------FOOTER-------*/
+
 .footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -288,6 +306,8 @@ max-width: 496px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo span {
@@ -298,6 +318,7 @@ max-width: 496px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        width: 264px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--second-text-color);
