@@ -20,15 +20,12 @@ ul {
         margin-bottom: 0;
         margin-left: 0;
         padding-left: 0;
+        list-style: none;
 }
 
 .link {
     text-decoration: none;
 }
-
-.list {
-    list-style: none;
-    }
 
     .container {
         width: 100%;
@@ -178,7 +175,7 @@ max-width: 496px;
 /*!------PORTFOLIO BTNS-------*/
 
 .prtfl-btn {
-    font-family: inherit;
+        font-family: inherit;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -187,11 +184,19 @@ max-width: 496px;
         background: #F4F4FD;
         color: #4D5AE5;
         cursor: pointer;
+        padding: 12px 24px;
 }
 
 .prtfl-btn:hover, .prtfl-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: calc((100%-96) / 5);
 }
 
 /*!------ABOUT US-------*/
