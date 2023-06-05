@@ -2,6 +2,7 @@
     --main-text-color:#2E2F42;
     --second-text-color: #F4F4FD;
     --contacts-link-color: #434455;
+    --pf-button-color: #e7e9fc;
 }
 
 body {
@@ -139,17 +140,16 @@ max-width: 496px;
 
 .hero {
     background-color: #2E2F42;
-    }
+    padding: 188px 0;
+}
 
 .container-hero {
     display: flex;
     width: 1440px;
-    height: 600px;
     gap: 48px;
     flex-direction: column;
     align-items: center;
-    padding: 188px 0;
-}
+    }
 
 .hero-btn {
     min-width: 169px;
@@ -188,7 +188,7 @@ max-width: 496px;
     flex-direction: column;
 }
 
-/*!------PORTFOLIO BTNS-------*/
+/*!------PORTFOLIO-------*/
 
 .prtfl-btn {
         font-family: inherit;
@@ -201,11 +201,14 @@ max-width: 496px;
         color: #4D5AE5;
         cursor: pointer;
         padding: 12px 24px;
+        border: 1px solid var(--pf-button-color);
+        border-radius: 4px;
 }
 
 .prtfl-btn:hover, .prtfl-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .button-list {
@@ -214,7 +217,11 @@ max-width: 496px;
     gap: 24px;
     width: calc((100%-96) / 5);
     margin-bottom: 72px;
-    margin-top: 96px;
+}
+
+.pf-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .pfl-list {
@@ -234,8 +241,13 @@ width: calc((100% - 48px) / 3);
 }
 
 .pf-description {
-    background: #E7E9FC;
+    background: #FFFFFF;
     padding: 32px 16px;
+    border: 1px solid var(--pf-button-color);
+}
+
+.pf-ttl {
+    margin-bottom: 8px;
 }
 
 /*!------ABOUT US-------*/
